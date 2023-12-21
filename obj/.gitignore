@@ -36,3 +36,7 @@ Thumbs.db
 
 # produced html file
 *.html
+
+# Ignore Debug directory
+bin/Debug/
+obj/Debug/
