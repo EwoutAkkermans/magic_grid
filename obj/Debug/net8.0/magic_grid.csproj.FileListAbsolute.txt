@@ -1,0 +1,28 @@
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\bin\Debug\net8.0\magic_grid.exe
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\bin\Debug\net8.0\magic_grid.deps.json
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\bin\Debug\net8.0\magic_grid.runtimeconfig.json
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\bin\Debug\net8.0\magic_grid.dll
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\bin\Debug\net8.0\magic_grid.pdb
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.AssemblyInfoInputs.cache
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.AssemblyInfo.cs
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.csproj.CoreCompileInputs.cache
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.dll
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\refint\magic_grid.dll
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.pdb
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\magic_grid.genruntimeconfig.cache
+C:\Users\Ewout\.vscode\vscode repos\magic_grid\obj\Debug\net8.0\ref\magic_grid.dll
+C:\Users\ewout\.vscode\projects\magic_grid\bin\Debug\net8.0\magic_grid.exe
+C:\Users\ewout\.vscode\projects\magic_grid\bin\Debug\net8.0\magic_grid.deps.json
+C:\Users\ewout\.vscode\projects\magic_grid\bin\Debug\net8.0\magic_grid.runtimeconfig.json
+C:\Users\ewout\.vscode\projects\magic_grid\bin\Debug\net8.0\magic_grid.dll
+C:\Users\ewout\.vscode\projects\magic_grid\bin\Debug\net8.0\magic_grid.pdb
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.AssemblyInfoInputs.cache
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.AssemblyInfo.cs
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.csproj.CoreCompileInputs.cache
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.dll
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\refint\magic_grid.dll
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.pdb
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\magic_grid.genruntimeconfig.cache
+C:\Users\ewout\.vscode\projects\magic_grid\obj\Debug\net8.0\ref\magic_grid.dll
