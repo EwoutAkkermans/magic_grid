@@ -11,7 +11,7 @@ class Program
             {
                 if (n % 2 == 0)
                 {
-                    Console.WriteLine("n must be odd");
+                    Console.WriteLine("n must be odd"); //non-essential rule
                     return;
                 }
                 else
@@ -33,86 +33,35 @@ class Program
     {
         int[,] grid = new int[n, n];
 
-        int startcolumn = n/2;
-        int startrow = 0;
+        //set start values, these can also be random
+        int row = 0;
+        int column = n/2;
 
-        grid[startrow, startcolumn] = 1;
-        int counter = 2;
-
-        int row = startrow;
-        int column = startcolumn;
+        int counter = 1;
+        grid[row, column] = counter++;
 
         while (counter <= n * n)
         {
-            //save start position with row and column
-            //check cell with checkFillPosition at row - 1, column + 1
-            //if checkFillPosition row is out of bounds, set move row to n - 1
-            //if checkFillPosition column is out of bounds, set move column to 0
-            //if checkFillPosition cell is not filled, set value of checkFillPosition cell to the value of counter + 1
-            //if checkFillPosition cell is filled, make new downPosition at start position with row - 1, and same column
-            //if downPosition row is out of bounds, set move row to >>0<< (this was the problem)
-            //set value of downPosition cell to the value of counter + 1
+            int rowCheck = row - 1 < 0 ? n - 1 : row - 1;
+            int columnCheck = column + 1 >= n ? 0 : column + 1;
 
-            startrow = row;
-            startcolumn = column;
-
-            int checkFillPositionRow = startrow - 1;
-            int checkFillPositionColumn = startcolumn + 1;
-
-            if (!RowValid(checkFillPositionRow))
-            {
-                checkFillPositionRow = n - 1;
-            }
-
-            if (!ColumnValid(checkFillPositionColumn))
-            {
-                checkFillPositionColumn = 0;
-            }
-
-            if (!CellFilled(checkFillPositionRow, checkFillPositionColumn))
-            {
-                grid[checkFillPositionRow, checkFillPositionColumn] = counter;
-                row = checkFillPositionRow;
-                column = checkFillPositionColumn;
+            if (grid[rowCheck, columnCheck] == 0)
+            {   //move up and right
+                grid[rowCheck, columnCheck] = counter++;
+                row = rowCheck;
+                column = columnCheck;
             }
             else
-            {
-                int downPositionRow = startrow + 1;
-                int downPositionColumn = startcolumn;
-
-                if (!RowValid(downPositionRow))
-                {
-                    downPositionRow = 0;
-                }
-
-                grid[downPositionRow, downPositionColumn] = counter;
-                row = downPositionRow;
-                column = downPositionColumn;
+            {   //move down one
+                int rowDown = row + 1 >= n ? 0 : row + 1;
+                grid[rowDown, column] = counter++;
+                row = rowDown;
             }
-
-            counter++;
         }
-
-        bool RowValid(int checkRow)
-        {
-            return checkRow >= 0 && checkRow < n;
-        }
-        
-
-        bool ColumnValid(int checkColumn)
-        {
-            return checkColumn >= 0 && checkColumn < n;
-        }
-
-        bool CellFilled(int checkFilledRow, int checkFilledColumn)
-        {
-            return grid[checkFilledRow, checkFilledColumn] != 0;
-        }
-
         return grid;
     }
 
-    static void GenerateHtmlFile(int[,] grid, string filename)
+    static void GenerateHtmlFile(int[,] grid, string filename) //entirely written by copilot
     {
         using (StreamWriter writer = new StreamWriter(filename))
         {
