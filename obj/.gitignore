@@ -40,3 +40,20 @@ Thumbs.db
 # Ignore Debug directory
 bin/Debug/
 obj/Debug/
+
+# Ignore obj directory
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore source control metadata files
+*.vspscc
+*.vssscc
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*.bak
