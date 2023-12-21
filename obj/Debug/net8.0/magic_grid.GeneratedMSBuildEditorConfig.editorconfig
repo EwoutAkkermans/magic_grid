@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = magic_grid
-build_property.ProjectDir = C:\Users\ewout\.vscode\projects\magic_grid\
+build_property.ProjectDir = C:\Users\Ewout\.vscode\magic_grid\n_to_html\magic_grid\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
